@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<div>
+  <canvas id="screen" width="700" height="700" style="border:1px solid"></canvas>
+  <canvas id="rotationCurve" width="700" height="200" style="border:1px solid"></canvas>
+</div>
+
+<div id="options">
+
+  <div style="padding: 20px">
+    <button type="button" id="changeMode">Dark Matter</button>
+  </div>
+
+  <div style="padding: 20px">
+    <button type="button" id="resetButton">Reset</button>
+  </div>
+
+  <div style="padding: 20px">
+    <span>Connecting Lines</span>
+    <input type="checkbox" id="lines">
+  </div>
+
+  <div id="sunMassIndex" style="padding: 20px">
+  <div>
+    <span>Sun Mass</span>
+    <input type="range" min="0" max="5000" value="1000" id="massSlider"></input>
+  </div>
+  <div>
+    <span>Reset When Changed</span>
+    <input type="checkbox" id="reset?"></input>
+  </div>
+  </div>
+
+  <div id = "sliderIndex" style="padding: 20px">
+    <span>Dark Matter Halo</span>
+    <input type="range" min="0" max="350" value="150" id="DMSlider"></input>
+  </div>
+
+  <script src="script.js"></script>
+</div>

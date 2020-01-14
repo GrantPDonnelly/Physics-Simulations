@@ -1,0 +1,32 @@
+body {
+  background: #161616;
+  color: #161616;
+  font-weight: 300;
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  align-items: left;
+  justify-content: left;
+  text-align: center;
+  font-family: Helvetica neue, roboto;
+}
+
+img {
+  width: 56px;
+  height: 48px;
+}
+
+h1 {
+  font-weight: 200;
+  font-style: 26px;
+  margin: 10px;
+}
+
+#screen {
+  position: relative;
+};
+
+#rotationCurve {
+  position: absolute;
+  left: 50 px;
+};
